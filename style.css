@@ -1,0 +1,277 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+
+}
+
+@font-face {
+    font-family: "Prog";
+    src: url(FONTS/HaipapikuseruRehyper-Regular.otf);
+}
+
+.header{
+    background-color:#EAEEF0 ;
+    padding: 100px 0px;
+    display: flex; 
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    /* height: 100vh; */
+}
+
+.header-wrapp{
+    display: flex;  
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.logo{
+    font-size: 20px;
+    font-family: "Istok Web", sans-serif;
+
+    font-weight: bold;
+    color: #EB9225;
+
+
+}
+
+
+.listNav{
+    display: flex;
+    list-style-type: none;
+   
+}
+
+.itemList{
+    margin-right: 106px;
+    font-family: "Istok Web", sans-serif;
+    color: #32325F;
+    font-size: 20px;
+    font-weight: 400;
+    transition: 300ms;
+    cursor: pointer;
+}
+
+.itemList:hover{
+    color: #EB9225;
+}
+
+.itemList:last-child{
+    margin-right: 0;
+}
+
+.icons-block{
+    display: flex;
+    align-items: center;
+    
+}
+
+.icon-block{
+    margin-right:25px ;
+    width: 26px;
+    height: 26px;
+    border-radius: 50%;
+    background-color: #32325F;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+transition: 300ms;
+    cursor: pointer;
+
+
+}
+
+.icon-block:hover{
+    background-color: #EB9225;
+}
+
+.icon-block:last-child{
+    margin-right:0 ;
+}
+
+
+
+.header-main{
+    display: flex;  
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 137px;
+
+}
+
+
+.content-block{
+    margin-right: 63px;
+
+}
+
+.page{
+    color: #32325F;
+    font-size: 20px;
+    font-weight: 400;
+
+}
+
+.title{
+    font-size: 26px;
+    font-weight: 400;
+    color: #32325F;
+    font-weight: bold;
+    font-family: "Prog";
+    line-height: 50px;
+    margin:40px 0px 14px 0px ;
+}
+
+.description{
+    font-size: 20px;
+    color: #32325F;
+    font-size: 20px;
+    margin-bottom: 26px;
+}
+
+.price{
+    color: #32325F;
+    font-size: 20px;
+    margin-bottom: 18px;
+}
+
+.price-count{
+    color: #525F7F;
+    font-size: 26px;
+    margin-bottom: 18px;
+}
+
+.container-btn{
+    display: flex;
+    align-items: center;
+
+}
+
+.book-btn{
+    margin-right: 30px;
+    background-color: #EB9225;
+    padding: 18px 30px;
+    border-radius:6px;
+    color: #fff;
+    cursor: pointer;
+    transition: 500ms;
+}
+
+.book-btn:hover{
+    background-color: #cf852a;
+}
+
+
+.btn-listen{
+    margin-right: 30px;
+    background-color: #1D2F43;
+    padding: 18px 30px;
+    border-radius:6px;
+    color: #fff;
+    cursor: pointer;
+    transition: 500ms;
+}
+
+.btn-listen:hover{
+    background-color: #3e6897;
+}
+
+
+.container-books{
+    padding:92px 0px ;
+    display: flex;
+    flex-direction:column ;
+    align-items: center;
+   
+
+}
+
+.container {
+
+    margin: 0 auto;   
+    padding: 0px 20px;   
+    max-width: 1200px;
+    width: 100%;       
+    
+}
+
+.title-book{
+    font-size: 20px;
+    color: #32325F;
+
+}
+
+.subtitle-book{
+    font-family: "Prog", sans-serif;
+    font-size: 26px;
+    color: #32325F;
+    margin: 40px 0px;
+}
+
+.container-card{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+
+}
+
+.card{
+    text-align: center;     
+}
+
+
+.description-card{
+    color:#525F7F ;
+    font-size: 16px;
+    margin-top: 40px;
+    text-align: start;
+
+}
+
+.section-people{
+    padding:100px 0px ;
+    background-color: rgba(188, 201, 209, 0.32);
+}
+
+
+.img-people{
+    margin-top: 75px;
+    /* margin-right: 39px; */
+   
+}
+
+
+footer{
+    padding: 70px 0px;
+    background-color: #EB9225;
+    color: #fff;
+
+}
+
+.lists{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.listFooter{
+    list-style: none;
+
+}
+
+.itemFooter.first{
+    font-size: 24px;
+    margin-bottom:25px ;
+
+}
+
+.itemFooter{
+    font-size: 15px;
+    
+    
+}
