@@ -1,4 +1,4 @@
-*{
+* {
     padding: 0;
     margin: 0;
     box-sizing: border-box;
@@ -10,24 +10,24 @@
     src: url(FONTS/HaipapikuseruRehyper-Regular.otf);
 }
 
-.header{
-    background-color:#EAEEF0 ;
+.header {
+    background-color: #EAEEF0;
     padding: 100px 0px;
-    display: flex; 
+    display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: space-around;
     /* height: 100vh; */
 }
 
-.header-wrapp{
-    display: flex;  
+.header-wrapp {
+    display: flex;
     justify-content: space-between;
     align-items: center;
 
 }
 
-.logo{
+.logo {
     font-size: 20px;
     font-family: "Istok Web", sans-serif;
 
@@ -38,13 +38,13 @@
 }
 
 
-.listNav{
+.listNav {
     display: flex;
     list-style-type: none;
-   
+
 }
 
-.itemList{
+.itemList {
     margin-right: 106px;
     font-family: "Istok Web", sans-serif;
     color: #32325F;
@@ -54,22 +54,26 @@
     cursor: pointer;
 }
 
-.itemList:hover{
+/* .itemList:nt{
+    margin-right: 0px;
+} */
+
+.itemList:hover {
     color: #EB9225;
 }
 
-.itemList:last-child{
+.itemList:last-child {
     margin-right: 0;
 }
 
-.icons-block{
+.icons-block {
     display: flex;
     align-items: center;
-    
+
 }
 
-.icon-block{
-    margin-right:25px ;
+.icon-block {
+    margin-right: 25px;
     width: 26px;
     height: 26px;
     border-radius: 50%;
@@ -78,24 +82,24 @@
     display: flex;
     justify-content: center;
     align-items: center;
-transition: 300ms;
+    transition: 300ms;
     cursor: pointer;
 
 
 }
 
-.icon-block:hover{
+.icon-block:hover {
     background-color: #EB9225;
 }
 
-.icon-block:last-child{
-    margin-right:0 ;
+.icon-block:last-child {
+    margin-right: 0;
 }
 
 
 
-.header-main{
-    display: flex;  
+.header-main {
+    display: flex;
     justify-content: space-between;
     align-items: center;
     margin-top: 137px;
@@ -103,115 +107,115 @@ transition: 300ms;
 }
 
 
-.content-block{
+.content-block {
     margin-right: 63px;
 
 }
 
-.page{
+.page {
     color: #32325F;
     font-size: 20px;
     font-weight: 400;
 
 }
 
-.title{
+.title {
     font-size: 26px;
     font-weight: 400;
     color: #32325F;
     font-weight: bold;
     font-family: "Prog";
     line-height: 50px;
-    margin:40px 0px 14px 0px ;
+    margin: 40px 0px 14px 0px;
 }
 
-.description{
+.description {
     font-size: 20px;
     color: #32325F;
     font-size: 20px;
     margin-bottom: 26px;
 }
 
-.price{
+.price {
     color: #32325F;
     font-size: 20px;
     margin-bottom: 18px;
 }
 
-.price-count{
+.price-count {
     color: #525F7F;
     font-size: 26px;
     margin-bottom: 18px;
 }
 
-.container-btn{
+.container-btn {
     display: flex;
     align-items: center;
 
 }
 
-.book-btn{
+.book-btn {
     margin-right: 30px;
     background-color: #EB9225;
     padding: 18px 30px;
-    border-radius:6px;
+    border-radius: 6px;
     color: #fff;
     cursor: pointer;
     transition: 500ms;
 }
 
-.book-btn:hover{
+.book-btn:hover {
     background-color: #cf852a;
 }
 
 
-.btn-listen{
+.btn-listen {
     margin-right: 30px;
     background-color: #1D2F43;
     padding: 18px 30px;
-    border-radius:6px;
+    border-radius: 6px;
     color: #fff;
     cursor: pointer;
     transition: 500ms;
 }
 
-.btn-listen:hover{
+.btn-listen:hover {
     background-color: #3e6897;
 }
 
 
-.container-books{
-    padding:92px 0px ;
+.container-books {
+    padding: 92px 0px;
     display: flex;
-    flex-direction:column ;
+    flex-direction: column;
     align-items: center;
-   
+
 
 }
 
 .container {
 
-    margin: 0 auto;   
-    padding: 0px 20px;   
+    margin: 0 auto;
+    padding: 0px 20px;
     max-width: 1200px;
-    width: 100%;       
-    
+    width: 100%;
+
 }
 
-.title-book{
+.title-book {
     font-size: 20px;
     color: #32325F;
 
 }
 
-.subtitle-book{
+.subtitle-book {
     font-family: "Prog", sans-serif;
     font-size: 26px;
     color: #32325F;
     margin: 40px 0px;
 }
 
-.container-card{
+.container-card {
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -219,59 +223,185 @@ transition: 300ms;
 
 }
 
-.card{
-    text-align: center;     
+.card {
+    text-align: center;
 }
 
 
-.description-card{
-    color:#525F7F ;
+.description-card {
+    color: #525F7F;
     font-size: 16px;
     margin-top: 40px;
     text-align: start;
 
 }
 
-.section-people{
-    padding:100px 0px ;
+.section-people {
+    padding: 100px 0px;
     background-color: rgba(188, 201, 209, 0.32);
 }
 
 
-.img-people{
+.img-people {
     margin-top: 75px;
     /* margin-right: 39px; */
-   
+
 }
 
 
-footer{
+footer {
     padding: 70px 0px;
     background-color: #EB9225;
     color: #fff;
 
 }
 
-.lists{
+.lists {
     display: flex;
     justify-content: space-between;
     align-items: center;
 
 }
 
-.listFooter{
+.listFooter {
     list-style: none;
 
 }
 
-.itemFooter.first{
+.itemFooter.first {
     font-size: 24px;
-    margin-bottom:25px ;
+    margin-bottom: 25px;
 
 }
 
-.itemFooter{
+.itemFooter {
     font-size: 15px;
-    
-    
+
+
+}
+
+input[type="checkbox"] {
+    display: none;
+}
+
+label {
+    display: none;
+
+}
+
+@media (max-width:1200px) {
+    .img {
+        display: none;
+    }
+
+
+}
+
+@media (max-width:992px) {
+
+    .icons-block {
+        display: none;
+    }
+
+    .listNav {
+        opacity: 0;
+        transition: 300ms;
+        pointer-events: none;
+        position: fixed;
+
+        padding-top: 100px;
+        background-color: #8f8f8f;
+        color: #fff;
+        inset: 0;
+
+    }
+
+
+    label {
+        display: block;
+        position: relative;
+        height: 25px;
+        width: 30px;
+        cursor: pointer;
+
+    }
+
+    label::before,
+    label::after,
+    label span {
+        width: 100%;
+        height: 3px;
+        background-color: #000000;
+        position: absolute;
+        transition: 300ms;
+
+
+    }
+
+
+    label::before {
+        content: "";
+        top: 0;
+
+    }
+
+    label::after {
+        bottom: 0;
+        content: "";
+
+    }
+
+    label span {
+        top: 11px;
+        content: "";
+    }
+
+    #burger-toggle:checked~label::after {
+        transform: rotate(45deg);
+        bottom: 10px;
+       
+    }
+
+    #burger-toggle:checked~label::before {
+        top: 12px;
+        
+        transform: rotate(-45deg);
+       
+    }
+
+
+    #burger-toggle:checked~label span {
+        top: 12px;
+        transform: rotate(-45deg);
+        
+    }
+
+
+    header:has(#burger-toggle:checked) .listNav {
+
+        opacity: 1;
+        pointer-events: all;
+
+        display: block;
+        text-align: center;
+        
+    }
+
+     body:has(#burger-toggle:checked)  {
+
+       overflow-y: hidden;
+    }
+
+    header:has(#burger-toggle:checked) .itemList {
+
+        margin-top: 30px;
+        margin-right: 0;
+        font-size: 40px;
+       
+    }
+
+
+
+
+
 }
