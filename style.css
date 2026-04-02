@@ -260,12 +260,13 @@ footer {
     display: flex;
     justify-content: space-between;
     align-items: center;
-
+    flex-wrap: wrap;
+    gap: 20px;
 }
 
 .listFooter {
     list-style: none;
-
+    
 }
 
 .itemFooter.first {
@@ -338,6 +339,33 @@ label {
 
     }
 
+    .container{
+        max-width: 600px;
+        
+        
+    }
+    
+
+    .title, .subtitle-book{
+        font-size: 14px;
+    }
+
+    .img-people{
+        width: 100%;
+        height: 100%;
+    }
+
+
+    /* .lists{
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+    } */
+
+    /* .listFooter{
+         margin-top: 40px;
+         margin-right: 0;
+    } */
 
     label::before {
         content: "";
