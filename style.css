@@ -10,6 +10,10 @@
     src: url(FONTS/HaipapikuseruRehyper-Regular.otf);
 }
 
+html{
+    scroll-behavior: smooth;
+}
+
 .header {
     background-color: #EAEEF0;
     padding: 100px 0px;
@@ -41,6 +45,7 @@
 .listNav {
     display: flex;
     list-style-type: none;
+    
 
 }
 
@@ -52,6 +57,7 @@
     font-weight: 400;
     transition: 300ms;
     cursor: pointer;
+    text-decoration: none;
 }
 
 /* .itemList:nt{
@@ -304,6 +310,11 @@ label {
         display: none;
     }
 
+    nav{
+        position: fixed;
+        right: 50px;
+    }
+
     .listNav {
         opacity: 0;
         transition: 300ms;
@@ -311,7 +322,7 @@ label {
         position: fixed;
 
         padding-top: 100px;
-        background-color: #8f8f8f;
+        background-color: #8f8f8fb5;
         color: #fff;
         inset: 0;
 
@@ -327,6 +338,7 @@ label {
 
     }
 
+    
     label::before,
     label::after,
     label span {
@@ -335,6 +347,7 @@ label {
         background-color: #000000;
         position: absolute;
         transition: 300ms;
+
 
 
     }

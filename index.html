@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Книги</title>
     <link rel="stylesheet" href="style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -14,7 +14,7 @@
 
 <body>
 
-    <header class="header">
+    <header class="header" id="header">
 
         <div class="container">
 
@@ -26,22 +26,32 @@
 
                     <ul class="listNav">
 
-                        <li class="itemList">Главная</li>
-                        <li class="itemList">О чём</li>
-                        <li class="itemList">Читатели</li>
+                        
+                        <a href="#header" class="itemList"><li>Главная</li></a>
+                        <a href="#about" class="itemList"><li>О чём</li></a>
+                        <a href="#listens" class="itemList"><li>Читатели</li></a>
 
                     </ul>
 
+                    <input type="checkbox" id="burger-toggle">
+                
+
+
+
+
+                    <label for="burger-toggle">
+
+                        <span></span>
+    
+    
+                    </label>
+
                 </nav>
 
-                <input type="checkbox" id="burger-toggle">
                 
-                <label for="burger-toggle">
-
-                    <span></span>
 
 
-                </label>
+                
 
 
                 <div class="icons-block">
@@ -124,7 +134,7 @@
 
     <main>
 
-        <section class="container-books">
+        <section class="container-books" id="about">
 
 
             <div class="container">
@@ -178,7 +188,7 @@
 
         </section>
 
-        <section class="section-people">
+        <section class="section-people" id="listens">
 
             <div class="container">
 
